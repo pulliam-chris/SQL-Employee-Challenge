@@ -110,6 +110,6 @@ ALTER TABLE Dept_Mgr
 --from pgAdmin import Employees from data\employees.csv
 --from pgAdmin import Departments from data\departments_cleaned.csv
 --from pgAdmin import Dept_Emp from data\dept_emp.csv (omits 'id' [primary serial key] on import process)
---from pgAdmin import Dept_Mgr from data\dept_manager.csv
+--from pgAdmin import Dept_Mgr from data\dept_manager_cleaned.csv
 
 
