@@ -20,7 +20,7 @@
 
 * EmployeeSQL\DataAnalysis.sql - the collection of SQL expressions to demonstrate the proper relationships established between the primary and linking tables.
 
-* SQL_Alchemy.ipynb - Creates an engine object and establishes a connection to the local Employee database that created and queried.  Using dataframes the following plots where produced to explore salary trends within the full set of Employees.
+* SQL_Alchemy.ipynb - Creates an engine object and establishes a connection to the local Employee database that was previously created and queried.  Using dataframes the following plots where produced to explore salary trends within the full set of Employees.
 
 ![Average Salary by Job Title](https://github.com/pulliam-chris/SQL-Employee-Challenge/blob/main/images/AvgSalary_plot.PNG "Average Salary by Job Title")
 
