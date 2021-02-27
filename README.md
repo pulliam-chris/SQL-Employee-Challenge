@@ -1,7 +1,7 @@
 # SQL-Employee-Challenge
 
-## File Descriptions
-* Data Folder - 5 Employee Data CSV files 
+## File Descriptions:
+* Data Folder - (6) Employee Data CSV files 
 
 * Entity Relationship Diagram - an ERD was generated based on the available data using GenMyModel (https://app.genmymodel.com/api/login). The ERD was also used to automate the table creation SQL expressions located in the EmployeeSQL\DataEngineering.sql file.
 
