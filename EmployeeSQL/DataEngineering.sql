@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS Departments
 
 CREATE TABLE IF NOT EXISTS Dept_Emp
 (
+    id SERIAL PRIMARY KEY
     emp_no INTEGER NOT NULL,
     dept_no VARCHAR(10) NOT NULL    
 );
@@ -108,7 +109,7 @@ ALTER TABLE Dept_Mgr
 --from pgAdmin import Titles from data\titles.csv
 --from pgAdmin import Employees from data\employees.csv
 --from pgAdmin import Departments from data\departments_cleaned.csv
---from pgAdmin import Dept_Emp from data\dept_emp.csv
+--from pgAdmin import Dept_Emp from data\dept_emp.csv (omits 'id' [primary serial key] on import process)
 --from pgAdmin import Dept_Mgr from data\dept_manager.csv
 
 
